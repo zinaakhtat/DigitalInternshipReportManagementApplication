@@ -1,0 +1,305 @@
+/* Reset des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 0px;
+    margin-left: 180px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li {
+    color: #ff9900;
+}
+
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+.background {
+    background-image: url('images/ENSA AGADIR.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    color: #3f2f2f;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 200px;
+    animation: slideIn 1s ease;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#apropose{
+/* Reset des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style de base pour le corps de la page */
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  #333;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  
+  
+  /* Style du conteneur principal */
+  .propose {
+    max-width: 800px;
+    margin: 50px auto; /* Centrer le conteneur verticalement */
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre plus légère */
+    display: flex;
+    flex-direction: column; /* Pour aligner le contenu verticalement */
+  }
+  
+  /* Style du titre */
+  .propose h1 {
+    font-size: 2.5em; /* Taille de police plus grande */
+    margin-bottom: 20px;
+    color: #ff9900;
+    text-align: center; /* Centrer le titre */
+  }
+  
+  /* Style du paragraphe */
+  .propose p {
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  /* Style des liens */
+  .propose a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .propose a:hover {
+    color: #0056b3; /* Couleur plus foncée au survol */
+    text-decoration: underline;
+  }
+  
+  /* Style de l'image */
+  .propose-image {
+    text-align: center; /* Centrer l'image */
+   
+
+  }
+  
+  .propose-image img {
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas de son conteneur */
+    height: auto;
+    border-radius: 10px; /* Ajout de coins arrondis à l'image */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Ombre plus douce */
+    transition: transform 0.3s ease; /* Animation de transition */
+  }
+  
+  .propose-image img:hover {
+    transform: scale(1.05); /* Zoom léger au survol */
+  }
+  
+
+
+}
+#vous {
+    /* Réinitialisation des marges et des rembourrages pour body et html */
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Définir la hauteur de la section égale à la hauteur de la fenêtre du navigateur */
+    height: 100vh;
+
+    /* Styles pour l'arrière-plan */
+    background-image: url('images/imageaccuil.jpg'); /* Remplacez 'ENSA AGADIR.jpg' par le chemin de votre image */
+    background-size: cover; /* Pour que l'image couvre tout le fond */
+    background-position: center; /* Centrer l'image */
+
+    /* Centrer le contenu de la section verticalement et horizontalement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles pour le contenu de la section */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+/* Différents styles pour les différentes cartes */
+.student {
+    background-color: rgba(255, 153, 0, 0.5);
+}
+
+.admin {
+    background-color: rgba(0, 123, 255, 0.5);
+}
+
+.secretary {
+    background-color: rgba(40, 167, 69, 0.5);
+}
+
+.head {
+    background-color: rgba(220, 53, 69, 0.5);
+}
+
+/* Effet de survol sur les cartes */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Réinitialisation des marges et des rembourrages pour body et html */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour la section #contact */
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    /* background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center; */
+    display: flex;
+    flex-direction: column; /* Organise les éléments en colonne */
+    justify-content: flex-start; /* Alignement au début de la section */
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h1 {
+    text-align: center;
+    color: #ff9900;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%; /* Faire en sorte que le formulaire occupe toute la largeur */
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+#send {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9900;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#send:hover {
+    background-color: #ad9d06;
+}
+
+
+
