@@ -30,7 +30,7 @@ It provides an intuitive platform that allows **students** to view and download 
 
   <br/>
 
-  ## 📸 Application Preview
+## 📸 Application Preview
 
   ### landing page
 
@@ -64,13 +64,13 @@ It provides an intuitive platform that allows **students** to view and download 
   <img src="docs/administration.png" alt="administration" width="600"/>
   </p>
 
-  ## Report Upload
+## Report Upload
 
    <p align="center">
   <img src="docs/deposer.png" alt="deposer" width="600"/>
    </p>
 
-   ## Report Consultation
+## Report Consultation
 
    <p align="center">
   <img src="docs/consultstudent.png" alt="consultstudent" width="600"/>
@@ -83,8 +83,8 @@ It provides an intuitive platform that allows **students** to view and download 
    </p>
 
    <br/>
-
-   ## 🛠️ Technologies Used
+   
+## 🛠️ Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript   
 - **Backend:** PHP 
@@ -94,23 +94,58 @@ It provides an intuitive platform that allows **students** to view and download 
 
   <br/>
   
- ## ⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone <repository-url>
-cd internship-report-management
+git clone https://github.com/zinaakhtat/DigitalInternshipReportManagementApplication.git
+cd DigitalInternshipReportManagementApplication.
 ```
 
 ## 2️⃣ Set up the database
 
 - Create a MySQL database  
-- Import the provided SQL file located in **`/database/schema.sql`**
+- Import the provided SQL file located in **`/database/database (3).sql`**
 
 ## 4️⃣ Run the application locally
 
 - Start **Apache** and **MySQL** from **WAMP/XAMPP**  
 - Open the app in your browser:  
-  👉 [http://localhost/internship-report-management/main_page.php](http://localhost/internship-report-management/main_page.php)
+  👉 http://localhost/DigitalInternshipReportManagementApplication/main_page.php
+
+  <br/>
+
+## 🤝 Contributing
+
+1. **Fork** the repository
+
+2. **Create a new branch** for your feature
+
+```bash
+git checkout -b feature/AmazingFeature
+```
+
+3. **Commit** your changes
+
+```bash
+git commit -m "Add AmazingFeature"
+```
+
+4. **Push** to the branch
+
+```bash
+git commit -m "Add AmazingFeature"
+```
+
+5. **Open** a Pull Request
+
+<br/>
+
+## 📄 Licence
+
+This project is licensed under the MIT License.
+See the LICENSE file for more details.
+
+<br/>
 
 
